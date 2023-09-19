@@ -54,7 +54,7 @@ li {
     top: 150px;
     left: 20%;
     width: 500px;
-    height: 500px;
+    height: 400px;
     overflow: hidden;
 }
 
@@ -90,5 +90,10 @@ p.icon1 {
 
 p {
     color: white;
-    padding-left: 100px;
 }
+
+.textMovedLeft{
+    margin-left: 60px;
+}
+
+
