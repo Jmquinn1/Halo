@@ -11,7 +11,6 @@ body {
 }
 
 #ulMenu {
-    /*margin: 0px auto 0px auto; */
     position: absolute;
     top: 10px;
     right: 200px;
@@ -19,9 +18,6 @@ body {
 
 .ulMenuButton:hover {
     color: white;
-}
-
-.menuItem {
 }
 
 li a {
@@ -94,3 +90,4 @@ li {
 a > img {
     width: 24px;
 }
+

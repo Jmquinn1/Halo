@@ -10,18 +10,27 @@
 <form action="../index.html" method="post">
     <fieldset>
         <legend> Sign in</legend>
-        <!--username input-->
-        <label for="username" id="usernameLabel">Username:</label>
-        <input type="text" name="username" id="username" required/>
+        <div class="form">
+            <!--username input-->
+            <label for="username" id="usernameLabel" class="title">Username:</label>
+            <input type="text" name="username" id="username" required/>
+        </div>
 
-        <!-- Passowrd input-->
-        <label for="password" id="passwordLabel">Password:</label>
-        <input type="password" name="password" id="password" required/>
+        <div class="form">
+            <!-- Passowrd input-->
+            <label for="password" id="passwordLabel" class="title">Password:</label>
+            <input type="password" name="password" id="password" required/>
+        </div>
 
-        <!-- Email input-->
-        <input type="email" name="email" id="email" required/>
-        <!--Submit button-->
-        <input type="submit" value="Submit">
+        <div class="email">
+            <!-- Email input-->
+            <label for="email" class="title" id="email2"></label>
+            <input type="email" name="email" id="email" required/>
+        </div>
+        <div class="form">
+            <!--Submit button-->
+            <input type="submit" value="Submit" class="submit">
+        </div>
     </fieldset>
 </form>
 
