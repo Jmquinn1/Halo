@@ -51,24 +51,25 @@ li {
 
 /* icon*/
 .locationBox {
-    margin: 5% 55% 1px auto;
+    margin: 5% auto 1px auto; /* Adjusted the top margin from 15% to 5% */
     width: 500px;
-    height: 100px;
     max-width: 500px;
     min-width: 200px;
+    height: 100px;
 }
 
 .phoneBox {
-    margin: 1% 55% 1px auto;
+    margin: 1% auto 1px auto; /* Adjusted the top margin from 1% to 1% */
     width: 500px;
-    height: 100px
+    height: 100px;
 }
 
 .emailBox {
-    margin: 1% 55% 1px auto;
+    margin: 1% auto 1px auto; /* Adjusted the top margin from 1% to 1% */
     width: 500px;
-    height: 100px
+    height: 100px;
 }
+
 
 p.icon1 {
     font-size: 24px;
