@@ -1,0 +1,41 @@
+body {
+    background-color: #5950f6;
+    font-family: sans-serif;
+}
+
+#ulMenu {
+    position: fixed;
+    top: 10px;
+    right: 200px;
+}
+
+.ulMenuButton:hover {
+    color: white;
+}
+
+.homeButtons {
+    font-size: 16px;
+    padding-left: 15px;
+    border: none;
+    color: #7d3cff;
+}
+
+/* profile picture*/
+a > img {
+    width: 24px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #b6b3eb;
+}
+
+li {
+    padding: 10px;
+    display: inline-block;
+}
+
+#activeHome {
+    color: white;
+}
